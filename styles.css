@@ -10,6 +10,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+ .bg-dark {
+    background-color: black !important;
+}
 h1, h2, h3, h4, p, a {
     text-align: center;
 }
