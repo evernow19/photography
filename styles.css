@@ -68,9 +68,12 @@ button {
     text-align: center;
     padding-top: 210px;
 }
-.row {
+.container {
+    margin: auto;
     padding: 0;
-    margin: 40px;  
+}
+.row img {
+    padding-top: 30px;
 }
 .social-links {
     color: white;
@@ -99,7 +102,9 @@ button {
     font-size: 14px;
     color: #F65282;
 }
-
+.footer {
+    padding: 50px 0;
+}
 @media  (max-width: 600px) {
        h1 {
            font-size: 40px;
@@ -108,9 +113,10 @@ button {
            font-size: 12px;
        }
        img {
-           width: 100%;
-           padding: 10px; 
+           width: 100%; 
+           padding: 20px;
        }
+      
      .main-content {
          width: 300px;
      }
