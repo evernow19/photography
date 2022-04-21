@@ -71,21 +71,24 @@ button {
 }
 .container {
     margin: auto;
-    padding: 0;
+    padding: 30px 0;
 }
-.row img {
-    padding-top: 30px;
+.col-sm-auto img {
+    padding: 10px;
 }
 .social-links {
     color: white;
-    padding: 0 30px;
+    padding: 0 20px;
     font-size: 22px;
 }
-
+.about-me-page {
+    padding: 30px 20px;
+}
 .about-me-page p {
     color: #F65282;
     font-weight: bold;
     text-align: left;
+   padding: 30px 0 0;
     }
 .about-me-page h1 {
         text-align: left;
@@ -102,8 +105,8 @@ button {
     color: #F65282;
 }
 .footer {
-    margin-top: 50px;
-    padding: 50px 50px;
+    
+    padding: 50px 70px;
 }
 @media  (max-width: 600px) {
        h1 {
@@ -114,10 +117,21 @@ button {
        }
        img {
            width: 100%; 
-           padding: 20px;
+           padding: 10px 20px;
        }
       
      .main-content {
          width: 300px;
+     }
+     .about-me-page p {
+         text-align: center;
+         font-size: 18px;
+     }
+     .about-me-page h1 {
+         text-align: center;
+         font-size: 40px;
+     }
+     .about-me-page .col-sm {
+         text-align: center;
      }
     }
